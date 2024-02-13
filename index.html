@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav" class="sticky">
+        <div class="logo">Sreshta Reddy</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sreshta Reddy</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/pic5.png" alt="Sreshta Reddy Profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sreshta Reddy</h1>
+            <p class="section__text__p2">Full-Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My Linked profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sreshta-reddy-n-424467197/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/sreshtareddy'">
+                <img src="./assets/email.png" alt="My Email" class="icon-email" onclick="location.href='mailto:sreshtareddy001@gmail.com'">
+            </div>
+        </div>
+    </section>
+    <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;">
+    <section id="about">
+        <div class="section__text">
+        <p class="section__text__p1">Get To Know More</p>
+        </div>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                        I'm Sreshta Reddy, a passionate and driven software enthusiast with a strong foundation in software engineering and machine learning. Throughout my journey, I've tackled complex problems and delivered innovative solutions. I thrive in challenging environments and have a deep passion for software development. Constantly seeking opportunities to learn and grow, I stay up-to-date with the latest industry trends to contribute meaningfully to any project or organization I am a part of.
+                    </p>
+                    <p><br></p>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <div class="left-aligned-content">
+                            <h4>Indiana University Bloomington</h4>
+                            <p>Master of Science in Computer Science</p>
+                            <div class="box">
+                                <div class="info">
+                                    <p class="label">&nbsp;Aug 2022-May 2024&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="box gpa-box">
+                                <div class="info">
+                                    <p class="label">&nbsp;GPA:3.83&nbsp;</p>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <h4>Bangalore Institute of Technology</h4>
+                            <p>Bachelor of Technology in Computer Science</p>
+                            <div class="box">
+                                <div class="info">
+                                    <p class="label">&nbsp;Aug 2017-Aug 2021&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="box gpa-box">
+                                <div class="info">
+                                    <p class="label">&nbsp;GPA:3.65&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Skills</h3>
+                        <div class="skills-container">
+                            <ul class="skill-list">
+                                <li class="skill-item">Java</li>
+                                <li class="skill-item">Python</li>
+                                <li class="skill-item">Microsoft Office</li>
+                                <li class="skill-item">Unix</li>
+                                <li class="skill-item">C</li>
+                                <li class="skill-item">JavaScript</li>
+                                <li class="skill-item">Kafka</li>
+                                <li class="skill-item">Postman</li>
+                                <li class="skill-item">BootStrap</li>
+                                <li class="skill-item">Git</li>
+                                <li class="skill-item">React JS</li>
+                                <li class="skill-item">SpringBoot</li>
+                                <li class="skill-item">Docker</li>
+                                <li class="skill-item">Apache Cordova</li>
+                                <li class="skill-item">HTML</li>
+                                <li class="skill-item">CSS</li>
+                                <li class="skill-item">Spark</li>
+                                <li class="skill-item">MySQL</li>
+                                <li class="skill-item">Public Cloud (AWS, Azure)</li>
+                                <li class="skill-item">Data Structures and Algorithms</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt=" Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    
+    </section>
+    </div>
+    <section id="experience">
+        <div class="section__text">
+        <p class="section__text__p1">Explore My</p>
+        </div>
+        <h1 class="title">Experience</h1>
+        <div class="experience-section-new">
+            <div class="experience-new">
+                <div class="logo-new">
+                    <img src="./assets/IU-logo.png" alt="Indiana University Logo">
+                </div>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Indiana University Bloomington</h2>
+                            <div class="role-container">
+                                <p class="role">Teaching Assistant</p>
+                            </div>
+                            <div class="dates-container">
+                                <p class="role-dates">Jan 2024 - Present</p>
+                            </div>
+                            <div class="article-container">
+                                <ul class="experience-list">
+                                    <li>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Facilitated student learning through lectures, grading, and one-on-one sessions, contributing to a 20% improvement in overall course performance.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Acted as a client for student teams, ensuring project success and adherence to agile methodologies, resulting in a 15% increase in project completion rates.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Mentored students in the Object Oriented Software Methods Course, engaging in pair programming and code reviews, leading to a 25% enhancement in student understanding and application of software design principles.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Guided students in mastering Spring Boot, Java, and Design Patterns through personalized evaluation and feedback on assignments and homework.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>               
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="experience-new">
+                <div class="logo-new">
+                    <img src="./assets/oracle-logo.png" alt="Indiana University Logo">
+                </div>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Oracle Financial Services Software</h2>
+                            <div class="role-container">
+                                <p class="role">Associate Consultant</p>
+                            </div>
+                            <div class="dates-container">
+                                <p class="role-dates">Aug 2021 - July 2022</p>
+                            </div>
+                            <div class="article-container">
+                                <ul class="experience-list">
+                                    <li>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Designed and launched a React JS Proof of Concept (POC), effectively showcasing varied functionalities and data presentation, resulting in a 15% uptick in stakeholder engagement.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Led development of a scalable, data-driven UI project using ReactJS, Axios, Node.js, and Spring Boot. Delivered responsive UI screens surpassing client expectations, with optimized user experience, particularly for State Street Client.</p>
+                                        </div>
+
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Expertly architected robust monolithic applications utilizing SQL DB, message queues, REST services, and SOAP services, consistently delivering applications with a 20% enhanced performance and reducing downtimes by 15%. </p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Proved instrumental in developing and rigorously testing applications, addressing complex problems, and ensuring a 20% improvement in system reliability.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>               
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="experience-new">
+                <div class="logo-new">
+                    <img src="./assets/hermit-logo.png" alt="Indiana University Logo">
+                </div>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">HermitCrabs</h2>
+                            <div class="role-container">
+                                <p class="role">Web Developer Intern</p>
+                            </div>
+                            <div class="dates-container">
+                                <p class="role-dates">Feb 2021 - Apr 2021</p>
+                            </div>
+                            <div class="article-container">
+                                <ul class="experience-list">
+                                    <li>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Led the development of an optimized company website on HubSpot CMS, driving a 25% surge in organic traffic and 20% user retention, while resolving 98% of web-related challenges for peak performance.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Championed the implementation of data-driven improvements through advanced web analytics, aligning web design with cross
+                                                functional team objectives and enhancing site speed, thereby boosting overall digital brand representation.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Collaborated on inbound marketing strategies, leveraging CMS tools to optimize lead generation, while consistently maintaining
+                                                web content to ensure a 98% issue-resolution rate and a 10% increase in site responsiveness.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>               
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="experience-new">
+                <div class="logo-new">
+                    <img src="./assets/campus-logo.png" alt="Indiana University Logo">
+                </div>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Campus Build Technologies Pvt Limited</h2>
+                            <div class="role-container">
+                                <p class="role">Software Developer Intern</p>
+                            </div>
+                            <div class="dates-container">
+                                <p class="role-dates">Jan 2020 - Feb 2020</p>
+                            </div>
+                            <div class="article-container">
+                                <ul class="experience-list">
+                                    <li>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Utilized Java-based OOP and advanced AI techniques in projects, achieving a 20% enhancement in software development efficiency and ensuring adaptive design solutions to dynamic requirements.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Excelled in debugging complexities with a proactive approach to issue resolution, contributing to a 15% improvement in project completion rates and reduced system downtimes.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>               
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    
+    </section>
+    <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;">
+    <section id="projects">
+        <div class="section__text">
+        <p class="section__text__p1">Browse My Recent</p>
+        </div>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/watchaflick.jpg" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Movie Booking Management</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/SE_WatchaFlick_Project'">GitHub</button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Skin Cancer Detection</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/ECC_Project_SkinCancer'">GitHub</button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.jpg" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Live Facial Expression</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/EmojiCreator'">GitHub</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/alumni.png" alt="project 1" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Alumni Management</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/AlumniDatabaseSystem'">GitHub</button>
+                        
+                    </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-5.png" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Online Food Order</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/OnlineFoodOrder'">GitHub</button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-6.png" alt="project 6" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Health Calculator</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreshtareddy/HealthCalculator'">GitHub</button>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+</div>
+
+<section id="contact">
+    <div class="section__text">
+    <p class="section__text__p1">Get in Touch</p>
+    </div>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info">
+        <img src="./assets/pic.png" alt="Profile picture"/>
+    
+        <div class="details">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:sreshtareddy001@gmail.com">Email</a></p>
+            &nbsp;&nbsp; 
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https://www.linkedin.com/in/sreshta-reddy-n-424467197/">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+    
+    <script src="script.js"></script>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Sreshta Reddy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
