@@ -42,7 +42,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 12vh;
 }
 
 nav.sticky {
@@ -73,6 +73,14 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
 }
+
+.nav-links.special-class a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+
 
 .logo {
     font-size: 2rem;
@@ -374,7 +382,7 @@ section {
 
 
 .experience-sub-title {
-    color: rgb(85,85,85);
+    color: rgb(46, 64, 83);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
