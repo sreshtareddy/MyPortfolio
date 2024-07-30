@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-    color: whitesmoke;
+    color: rgb(56, 62, 70);
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
